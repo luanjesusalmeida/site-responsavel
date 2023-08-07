@@ -1,0 +1,186 @@
+.container {
+
+    width: 100%;
+    height: 150%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.toposite {
+    width: 100%;
+    height: 20%;
+    background-color: #206ca6;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+.menu {
+    background-color: #022A4F;
+    width: 100%;
+    height: 15%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape {
+    width: 100%;
+    height: 51%;
+    background-color: #022A4F;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.autor {
+    width: 100%;
+    height: 4%;
+    background-color: #206CA6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+.box a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-top: 2%;
+    margin-left: 0, 2%;
+}
+
+.icones {
+    height: 55%;
+    width: 35%;
+    margin-top: 40%;
+    margin-left: 0, 2%;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.caixa-conteudo {
+    width: 25%;
+    height: 40%;
+    background-color: #206CA6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.caixa-conteudo ul a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    flex-wrap: wrap;
+
+}
+
+.img {
+    align-items: center;
+}
+
+.carro {
+    width: 100%;
+
+
+}
+
+@media screen and (max-width:700px) {
+    .carro {
+        height: 98%;
+    }
+}
+
+
+.os2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tesobre {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+@media screen and (max-width:850px) {
+    .os2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bla {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+}
+
+@media screen and (max-width:1100px) {
+    .rodape {
+        height: 38%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .rodape {
+        height: 70%;
+    }
+}
+
+
+@media screen and (max-width:799px) {
+
+    .container {
+        height: 150%;
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .caixa-conteudo {
+        width: 80%;
+        height: 30%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        height: 66%;
+    }
+}
